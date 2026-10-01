@@ -19,7 +19,7 @@ jobs:
       nav2-changed: ${{ steps.changes.outputs.nav2 }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           fetch-depth: 0
 
